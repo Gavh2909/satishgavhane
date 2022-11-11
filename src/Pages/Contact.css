@@ -1,0 +1,16 @@
+.contact{
+    margin: 30px;
+    height: 100%;
+   
+} 
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

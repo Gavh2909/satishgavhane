@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React,{useState} from 'react'
+import { Main } from './Pages/Main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <nav>
+        <button onClick={()=>setActive("firstCard")}>Home</button>
+        <button onClick={()=>setActive("secondCard")}>About</button>
+        <button onClick={()=>setActive("thirdCard")}>Contact</button>
+      </nav>
+      {active==="firstCard" && <Navbar title='1' />}
+      {active==="secondCard" && <First title='2' />}
+      {active==="thirdCard" && <Navbar title='3' />} */}
+      <Main />
     </div>
   );
 }

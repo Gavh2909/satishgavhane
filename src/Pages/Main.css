@@ -1,0 +1,67 @@
+.main{
+    background-color: rgb(5, 20, 26);
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+label.logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 60px;
+}
+
+
+
+ @media only screen and (max-width:414px){
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content:stretch ;
+    }
+     nav ul li{
+        display: none;
+     }
+     
+/* OnCLick Handle classnam = "show */
+   
+ }
+
+nav{
+    height: 60px;
+    width: 100vw;
+     background-color: rgb(70, 87, 81); 
+     background-color: rgb(5, 20, 26);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-left: 10px; */
+    border-bottom: 0.5px solid rgb(80, 73, 73);
+}
+
+
+nav ul{
+   margin: 5%;
+   width: 450px;
+   display: flex;
+   list-style: none;
+   padding: 25px 0;
+   justify-content: space-around;
+   cursor: pointer;
+ }
+nav ul li{
+    float: right;
+    padding: 3px;
+    padding-bottom: 6px;
+    transition: 0.4s;
+}
+nav ul li:hover{
+    color: rgb(90, 122, 68);
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}

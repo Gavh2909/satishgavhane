@@ -1,0 +1,36 @@
+
+ .hireme form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(60, 68, 68);
+    background-color: rgb(10, 35, 49);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+ }
+.hireme input{
+    height: 22px;
+    border: 0.1px solid rgb(23, 84, 134);
+    color: antiquewhite;
+    border-radius:6px;
+    background: transparent;
+}
+.hireme input:focus,textarea{
+    outline: none;
+}
+.btn{
+    display: flex;
+    padding: 4px;
+}
+ .btn input{
+    padding: 4px;
+    height: 25px;
+    background-color: rgb(28, 22, 32);
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ .btn input:hover{
+    background-color: rgb(63, 14, 63);
+ }
