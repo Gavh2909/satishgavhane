@@ -1,7 +1,7 @@
 .contact{
     margin: 30px;
-    height: 100%;
-   
+    height: calc(100vh - 185px);
+   color: #fff;
 } 
 
 .cont{

@@ -11,8 +11,7 @@ export const Home = () => {
       <div className="name">
         <p>Satish Rukhmaji Gavhane</p>
         <p>Software Developer</p>
-        <p>I'm a B tech graduate with good academic records and internship experience of over 6 montsh with cognizant.</p>
-        <div className="btns">
+         <div className="btns">
           <button onClick={() => setActive(!click)}>Hire/Refer ME</button>
           <button>
             <a href="https://drive.google.com/file/d/1RDdmZeAxicpCCC7RTvMw_BkLu6EgnZVv/view?usp=share_link">
@@ -23,8 +22,9 @@ export const Home = () => {
         {click === true && <Hireme title="hiremepage" />}
       </div>
       <div className="img">
-        <img src={modi} alt="" srcset="" />
+        <img src={modi} />
       </div>
     </div>
   );
 };
+ 

@@ -1,67 +1,99 @@
-.main{
-    background-color: rgb(5, 20, 26);
-    color: white;
-    text-decoration: none;
-    list-style: none;
-}
-
-
-label.logo{
-    font-size: 25px;
-    font-weight: bold;
-    padding: 0 100px;
-    line-height: 60px;
-}
-
-
-
- @media only screen and (max-width:414px){
-    nav{
-        width: 100%;
-        display: flex;
-        justify-content:stretch ;
-    }
-     nav ul li{
-        display: none;
-     }
-     
-/* OnCLick Handle classnam = "show */
-   
- }
-
-nav{
-    height: 60px;
-    width: 100vw;
-     background-color: rgb(70, 87, 81); 
-     background-color: rgb(5, 20, 26);
-    color: white;
+ nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    /* padding-left: 10px; */
-    border-bottom: 0.5px solid rgb(80, 73, 73);
+    justify-content: space-between;
+    background-color: rgb(10, 9, 31);
+    padding: 20px 80px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(230, 227, 227, 0.6);
+  }
+
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+   
+     
 }
 
+#navbar li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
 
-nav ul{
-   margin: 5%;
-   width: 450px;
-   display: flex;
-   list-style: none;
-   padding: 25px 0;
-   justify-content: space-around;
-   cursor: pointer;
+}
+
+#navbar li:hover, #navbar li a:hover{
+    color: rgb(99, 106, 138);
  }
-nav ul li{
-    float: right;
-    padding: 3px;
-    padding-bottom: 6px;
+
+#navbar li:hover::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: rgb(72, 85, 129);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile i{
+    color: #fff;
+    align-items: center;
     transition: 0.4s;
 }
-nav ul li:hover{
-    color: rgb(90, 122, 68);
+#mobile{
+    display: none;
 }
-nav ul li a{
-    text-decoration: none;
-    color: white;
+.logo{
+    font-size: 24px;
+}
+
+@media screen and (max-width:760px){
+    nav{
+        padding:20px;
+        box-shadow: none;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        top: 80px;
+        right: -800px;
+        width: 100%;
+        height: 300px;
+        background-color: rgb(10, 9, 31);
+        padding: 40px 0 0 10px;
+        transition: 0.5s ease-in-out;
+        opacity: 0.8;
+    }
+    
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: block;
+    }
+    #mobile i{
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+.main-content{
+    background-color: rgb(12, 6, 22);
 }

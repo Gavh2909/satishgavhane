@@ -1,8 +1,7 @@
 .footer{
-    background-color: rgb(11, 23, 27);
     color: rgb(172, 186, 207);
-    height: 59px;
-    border-top: 1px solid white;
+     height: 59px;
+     border-top: 0.5px solid rgb(189, 162, 162);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,8 +15,9 @@
 }
 .footer a{
     text-decoration: none;
-    color: rgb(134, 138, 177);
+    color: rgb(43, 132, 192);
 }
+ 
 
 @media only screen and (max-width:456px){
     .footer{

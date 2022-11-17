@@ -1,8 +1,8 @@
 
 .home{
     min-height: 100vh;
-    display: flex;
-  }
+    margin-top: 0;
+ }
 
 
 .name{
@@ -17,7 +17,7 @@
 .name button{
     padding: 10px;
     background: rgb(88, 85, 76);
-    color: rgb(124, 168, 165);
+    color: rgb(247, 247, 247);
     border: none;
     cursor: pointer;
     border-radius: 15px;
@@ -26,7 +26,7 @@
 .name button:hover{
     color: aliceblue;
     border-radius:4px ;
-    background-color: rgb(72, 72, 97);
+    background-color: rgb(124, 124, 177);
 }
 
 .btns{
@@ -36,20 +36,20 @@
 
 .name button a{
     text-decoration: none;
-    color: rgb(124, 168, 165);
+    color: rgb(236, 236, 236);
+    background: rgb(88, 85, 76);
+}
+.name p{
+    color: rgb(255, 255, 255);
+
 }
 .name p:first-child{
     font-size: 40px;
-    color: rgb(93, 104, 33);
     font-weight: 300;
     letter-spacing: 5px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.name p:second-child{
-    font-size: 40px;
-    color: rgb(156, 156, 204);
-}
 
 .img{
     width: 50%;
