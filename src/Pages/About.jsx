@@ -53,7 +53,9 @@ export const About = () => {
           <button>HTML</button>
           <button>CSS</button> 
           <button>JavaScript</button>
+          <button>BootStrap</button>
           <button>React Js</button>
+          <button>Redux</button>
           <button>SQL</button>
           <button>Git</button>
         </div>

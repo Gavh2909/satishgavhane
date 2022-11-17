@@ -7,6 +7,7 @@
     justify-content: space-between;
     padding-left: 20px;
 }
+
 .social-media{
     width: 20%;
     display: flex;
@@ -19,14 +20,18 @@
 }
  
 
-@media only screen and (max-width:456px){
+@media only screen and (max-width:760px){
     .footer{
         display: flex;
         align-items: center;
+        /* justify-content: center; */
         flex-direction: column;
     } 
    
     .social-media a{
          padding-right: 20px;
+    }
+    .social-media i:hover{
+        color: rgb(156, 124, 76);
     }
  }

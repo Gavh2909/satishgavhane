@@ -5,7 +5,7 @@ import "./Main.css";
 import { Footer } from "../Components/Footer";
 import { Contact } from "./Contact";
 import { click } from "@testing-library/user-event/dist/click";
-
+import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 export const Main = () => {
   const [active, setActive] = useState("home");
   const [clicked, setClicked] = useState(false);
@@ -35,10 +35,10 @@ export const Main = () => {
       </nav>
 
       <div className="main-content">
-        {active === "home" && <Home />}
+         {active === "home" &&  <Home />}
         {active === "about" && <About />}
         {active === "contact" && <Contact />}
-      </div>
+       </div>
       <Footer />
     </div>
   );
