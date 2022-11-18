@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/satishgavhane/static/css/main.488f6dd6.css",
+    "main.css": "/satishgavhane/static/css/main.3b1301dd.css",
     "main.js": "/satishgavhane/static/js/main.bfa676cf.js",
     "static/media/myimg.png": "/satishgavhane/static/media/myimg.3bc8b8e88991edae1d34.png",
     "index.html": "/satishgavhane/index.html",
-    "main.488f6dd6.css.map": "/satishgavhane/static/css/main.488f6dd6.css.map",
+    "main.3b1301dd.css.map": "/satishgavhane/static/css/main.3b1301dd.css.map",
     "main.bfa676cf.js.map": "/satishgavhane/static/js/main.bfa676cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.488f6dd6.css",
+    "static/css/main.3b1301dd.css",
     "static/js/main.bfa676cf.js"
   ]
 }
